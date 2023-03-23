@@ -45,7 +45,6 @@ services:
           property: port
       - fromGroup: common-env-vars
   - type: worker
-    plan: free
     name: automatisch-worker
     env: docker
     dockerfilePath: ./docker/Dockerfile
